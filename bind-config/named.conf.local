@@ -1,0 +1,4 @@
+zone "adminakademia.lan" {
+    type master;
+    file "/etc/bind/db.adminakademia.lan";
+};
