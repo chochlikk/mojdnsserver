@@ -1,0 +1,8 @@
+services:
+  dns:
+    image: chochlik/moj-server-dns:latest
+    container_name: moj-server-dns
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+    restart: unless-stopped
